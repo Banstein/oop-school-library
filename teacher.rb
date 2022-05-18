@@ -1,11 +1,12 @@
-require_relative 'student'
+require'./student.rb'
 
 class Teacher < Person
-  include Student
-  def initialize (specialization)
+  def initialize(name = 'Unknown', age, parent_permission: true)
+    super(name, age, parent_permission)
     @specialization = specialization
   end
+
   def can_use_services?
-    return true
+    true
   end
 end
