@@ -1,7 +1,7 @@
-require './person.rb'
+require './person'
 
 class Student < Person
-  def initialize(name = 'Unknown', age, parent_permission: true)
+  def initialize(age, name = 'Unknown', parent_permission: true)
     super(name, age, parent_permission)
     @classroam = classroam
   end
