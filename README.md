@@ -1,6 +1,12 @@
-# # Morse Code
+# # OOP school library
 
-> This a Ruby project that translate morse code into English alphabet
+
+> Imagine that you are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. The app that you will create will allow you to:
+
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
+
 
 ## Built With
 
@@ -12,11 +18,11 @@
 
 Start by cloning the repository.
 
-`https://github.com/Banstein/decode-morse-message.git`
+`git@github.com:Banstein/oop-school-library.git`
 
 Navigate to the created folder.
 
-`cd decode-morse-message`
+`cd oop-school-library`
 
 Have fun with morse code translation.
 
@@ -27,12 +33,6 @@ Have fun with morse code translation.
 - GitHub: [@Banstein](https://github.com/Banstein)
 - Twitter: [@islam_bahnas](https://twitter.com/islam_bahnas)
 - LinkedIn: [islam-bahnas](www.linkedin.com/in/islam-bahnas)
-
-👤 Faith Eloho Usor
-
-- GitHub: [@githubhandle](https://github.com/usorfaitheloho)
-- Twitter: [@twitterhandle](https://twitter.com/faith-usor16)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/faith-usor)
 
 ## 🤝 Contributing
 
