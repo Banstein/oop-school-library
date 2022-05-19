@@ -2,7 +2,6 @@ require './nameable'
 require './capitalize_decorator'
 require './trimmer_decorator'
 
-
 class Person < Nameable
   attr_reader :id
   attr_accessor :name, :age
@@ -23,7 +22,7 @@ class Person < Nameable
     @name
   end
 
-  # private
+  private
 
   def of_age?
     @age >= 18
